@@ -15,18 +15,24 @@ var htmlTitle = document.querySelector('.cover-title');
 var htmlTagline1 = document.querySelector('.tagline-1');
 var htmlTagline2 = document.querySelector('.tagline-2');
 
-// INTERATION 2 VARIABLES
+// ITERATION 2 VARIABLES
 var homeButton = document.querySelector('.home-button');
 var randomCoverButton = document.querySelector('.random-cover-button');
 var saveCoverButton = document.querySelector('.save-cover-button');
 var viewSavedButton = document.querySelector('.view-saved-button');
 var makeCoverButton = document.querySelector('.make-new-button');
 var homeView = document.querySelector('.home-view');
-var savedView = document.querySelector('.save-view');
 var formView = document.querySelector('.form-view');
 
 
-
+// ITERATION 3 VARIABLES
+var savedView = document.querySelector('.saved-view');
+var savedCoverView = document.querySelector('.saved-covers-section');
+var coverField = document.querySelector('.user-cover');
+var titleField = document.querySelector('.user-title');
+var tagline1Field = document.querySelector('.user-desc1');
+var tagline2Field = document.querySelector('.user-desc2');
+var makeBookButton = document.querySelector('.create-new-book-button');
 
 // Add your event listeners here 👇
 
@@ -36,6 +42,10 @@ currentCover.addEventListener("click", displayRandomImage);
 // ITERATION 2 EVENT LISTENERS
 makeCoverButton.addEventListener("click", makeNewCover);
 
+// ITERATION 3 EVENT listeners
+viewSavedButton.addEventListener("click", viewSaved);
+homeButton.addEventListener("click", viewHome);
+makeBookButton.addEventListener("click"), viewHome);
 // Create your event handlers and other functions here 👇
 
 
@@ -89,4 +99,37 @@ function makeNewCover() {
   randomCoverButton.classList.add("hidden");
   saveCoverButton.classList.add("hidden");
   homeButton.classList.remove("hidden");
+}
+
+//ITERATION 3 VIEW SAVED
+function viewSaved() {
+  homeView.classList.add("hidden");
+  formView.classList.add("hidden");
+  randomCoverButton.classList.add("hidden");
+  saveCoverButton.classList.add("hidden");
+  homeButton.classList.remove("hidden");
+  savedView.classList.add("hidden");
+}
+
+function viewHome() {
+  homeView.classList.remove("hidden");
+  formView.classList.add("hidden");
+  randomCoverButton.classList.remove("hidden");
+  saveCoverButton.classList.add("hidden");
+  homeButton.classList.remove("hidden");
+  savedView.classList.add("hidden");
+}
+
+function saveMyBook(event) {
+  event.preventDefault();
+  var coverField = formCover.value;
+  var titleField = formTitle.value;
+  var descriptor1Field = formDescriptor1.value;
+  var descriptor2Field = formDescriptor2.value;
+  covers.push(coverField);
+  titles.push(titleField);
+  descriptors.push(descriptor1Field);
+  descriptors.push(descriptor2Field);
+  coverImg.setAttribute("src", coverValue);
+  currentCover = new Cover (coverField, titleField, descriptor1Field, descriptor2Field);
 }
