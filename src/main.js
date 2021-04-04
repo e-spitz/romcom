@@ -113,9 +113,9 @@ function viewSaved() {
   saveCoverButton.classList.add('hidden');
   savedCoversView.classList.remove('hidden');
     for (var i = 0; i < savedCovers.length; i++) {
-      savedCoversSection.innerHTML +=
-      `<section class="mini-cover" id="${savedCovers[i].id}">
-        <img class="cover-image" src="${savedCovers[i].cover}">
+      savedCoversView.innerHTML +=
+      `<section class="mini-cover">
+        <img class="mini-cover" id="${savedCovers[i].id}" src="${savedCovers[i].cover}">
         <h2 class="cover-title">${savedCovers[i].title}</h2>
         <h3 class="tagline">A tale of <span class="tagline-1">${savedCovers[i].tagline1}</span> and <span class="tagline-2">${savedCovers[i].tagline2}</span></h3>
         <img class="price-tag" src="./assets/price.png">
