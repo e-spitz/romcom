@@ -87,40 +87,36 @@ function displayRandomHomePage() {
 //
 
 //ITERATION 2 FORM PAGE & MENU UPDATE
-
-function makeNewCover() {
-  console.dir(taglineField1);
+function clearNewCoverInputs() {
+  coverField.value = "";
+  titleField.value = "";
+  taglineField1.value = "";
+  taglineField2.value = "";
+}
+function makeNewCoverPage() {
   homeButton.classList.remove('hidden');
   homeView.classList.add('hidden');
   formView.classList.remove('hidden');
   randomCoverButton.classList.add('hidden');
   saveCoverButton.classList.add('hidden');
   savedCoversView.classList.add('hidden');
-  coverField.value = "";
-  titleField.value = "";
-  taglineField1.value = "";
-  taglineField2.value = "";
-  // currentCover = new Cover(htmlImage.src, htmlTitle.innerText, htmlTagline1.innerText, htmlTagline2.innerText);
+}
+function makeNewCover() {
+  makeNewCoverPage();
+  clearNewCoverInputs();
 }
 
-
-// function viewSaved() {
-//   homeButton.classList.remove('hidden');
-//   homeView.classList.add('hidden');
-//   formView.classList.add('hidden');
-//   randomCoverButton.classList.add('hidden');
-//   saveCoverButton.classList.add('hidden');
-//   savedView.classList.remove('hidden');
-// }
-
-function viewSaved() {
+function viewSavedPage() {
   homeButton.classList.remove('hidden');
   homeView.classList.add('hidden');
   formView.classList.add('hidden');
   randomCoverButton.classList.add('hidden');
   saveCoverButton.classList.add('hidden');
   savedCoversView.classList.remove('hidden');
-  console.log(savedCoversSection);
+}
+
+function viewSaved() {
+  viewSavedPage();
   savedCoversSection.innerHTML = "";
     for (var i = 0; i < savedCovers.length; i++) {
       savedCoversSection.innerHTML +=
@@ -145,18 +141,12 @@ function viewHome() {
 
 function createBook() {
   event.preventDefault();
-  // covers.push(coverField.value);
-  // titles.push(titleField.value);
-  // descriptors.push(taglineField1.value);
-  // descriptors.push(taglineField2.value);
   htmlImage.src = coverField.value;
   htmlTitle.innerText = titleField.value;
   htmlTagline1.innerText = taglineField1.value;
   htmlTagline2.innerText = taglineField2.value;
   currentCover = new Cover(htmlImage.src, htmlTitle.innerText, htmlTagline1.innerText, htmlTagline2.innerText);
-  // currentCover = new Cover(coverField.src, titleField.innerText, taglineField1.innerText, tagLineField2.innerText);
   viewHome();
-
 }
 
 // when user clicks save cover button, current cover is pushed to savedCovers arrays
