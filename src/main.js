@@ -33,7 +33,7 @@ var currentCover;
 
 //EVENT LISTENERS
 window.addEventListener("load", displayRandomHomePage);
-randomCoverButton.addEventListener("click", displayRandomImage);
+randomCoverButton.addEventListener("click", displayRandomHomePage);
 makeCoverButton.addEventListener("click", makeNewCover);
 viewSavedButton.addEventListener("click", viewSaved);
 homeButton.addEventListener("click", viewHome);
