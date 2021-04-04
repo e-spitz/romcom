@@ -3,29 +3,35 @@
 2. How to
 
 ## Introduction: RomCom or RomCover?
-Romantic comedies or romance novel covers... which is funnier? We couldn't decide either! There is just something about romance novel covers that is so inviting and so entertaining. Maybe it's the steamy image of two love birds embracing... or maybe it's the exciting descriptions that go along with the dramatic titles! There are just too many elements to enjoy. So we've decided to create a romance book cover generator! So all of your creative, romantic dreams of fire, ardor, zeal, and passion can come true! Click through the buttons to see random cover images, reload the page to see randomly generated covers, titles, and taglines, *OR* even better, *CREATE YOUR OWN* by filling out the Make My Book form. You can save any titles that suits your fancy.
+Romantic comedies or romance novel covers... which is funnier? We couldn't decide either! There is just something about romance novel covers that is so inviting and so entertaining. Maybe it's the steamy image of two love birds embracing... or maybe it's the exciting descriptions that go along with the dramatic titles! There are just too many elements to enjoy. So we've decided to create a romance book cover generator! So all of your creative, romantic dreams of fire, ardor, zeal, and passion can come true! 
 
 Enjoy!
+
 _Erica and Jani_
 
-======
+---
 
 ## How to explore RomCom?
-1. Visit our [RomCom Designer] (https://e-spitz.github.io/romcom/) website.
+Start by visiting our [RomCom Designer](https://e-spitz.github.io/romcom/) website.
 
 ## Explore Book Covers
-Your menu buttons are at the top of the screen.
-    ![menubuttons](https://github.com/e-spitz/romcom/blob/main/readme-assets/Home%20Page%20Menu.png)
+### Your menu buttons are at the top of the screen.
+
+   ![menubuttons](readme-assets/Home%20Page%20Menu.png)
 
 1. Click on **Show New Random Cover** to see a selection of our inventory of book covers.
 2. If you find a cover you like, click on **Save Cover**.
 3. Don't like what you see? Or are you feeling creative? Follow the **Make Your Own Cover** steps below.
 3. Save as many covers as you'd like. When you're ready to review your saved covers, click on **View Saved Covers**.
+    
 
 ## Feeling Creative? Make Your Own Cover!
 1. Click on the **Make Your Own Cover** button
 2. There you will find a form to fill out and create your own book cover!
+3. Simply enter a cover image URL, followed by your saucy title name, and two words to best describe your tale.
 
+    ![menubuttons](readme-assets/Cover-form.png)
+    
 ## RomCom On Load
 1. When you refresh the page, a brand new randomly generate cover should display on your browser!
 2. New image, new title, and new tagline descriptors, _*OH MY*_!
@@ -55,9 +61,9 @@ Your menu buttons are at the top of the screen.
 5. When all lines are filled,  you can click the *Make My Cover* button to see your cover displayed on the home page!
 6. Are you absolutely head over heels with this creation? _SAVE IT!_ with the _Save Cover_ button!
 
-##Conclusion
+## Conclusion
 Currently, this is all of the functionality we have for our website. We will continue to work towards adding more functionality like deleting covers or removing duplicates from the saved cover portion. But in the meantime, get to *ROMCOM'N*!
 
-###Maintainers
+### Maintainers
 1. Jani Palomino
 2. Erica Spitz
