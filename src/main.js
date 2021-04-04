@@ -1,5 +1,4 @@
 // Create variables targetting the relevant DOM elements here 👇
-
 var htmlImage = document.querySelector('.cover-image');
 var htmlTitle = document.querySelector('.cover-title');
 var htmlTagline1 = document.querySelector('.tagline-1');
@@ -28,6 +27,7 @@ var taglineField2 = document.getElementById('descriptor2');
 var savedCovers = [
   new Cover("http://3.bp.blogspot.com/-iE4p9grvfpQ/VSfZT0vH2UI/AAAAAAAANq8/wwQZssi-V5g/s1600/Do%2BNot%2BForsake%2BMe%2B-%2BImage.jpg", "Sunsets and Sorrows", "sunsets", "sorrows")
 ];
+
 var currentCover;
 
 //EVENT LISTENERS
@@ -40,7 +40,6 @@ makeBookButton.addEventListener("click", createBook);
 saveCoverButton.addEventListener("click", saveCover);
 
 // FUNCTIONS
-
 function getRandomIndex(array) {
   return Math.floor(Math.random() * array.length);
 }
@@ -63,6 +62,7 @@ function clearNewCoverInputs() {
   taglineField1.value = "";
   taglineField2.value = "";
 }
+
 function makeNewCoverPage() {
   homeButton.classList.remove('hidden');
   homeView.classList.add('hidden');
@@ -71,6 +71,7 @@ function makeNewCoverPage() {
   saveCoverButton.classList.add('hidden');
   savedCoversView.classList.add('hidden');
 }
+
 function makeNewCover() {
   makeNewCoverPage();
   clearNewCoverInputs();
@@ -88,7 +89,7 @@ function viewSavedPage() {
 function viewSaved() {
   viewSavedPage();
   savedCoversSection.innerHTML = "";
-    for (var i = 0; i < savedCovers.length; i++) {
+  for (var i = 0; i < savedCovers.length; i++) {
       savedCoversSection.innerHTML +=
       `<section class="mini-cover" id="${savedCovers[i].id}">
         <img class="cover-image" src="${savedCovers[i].cover}">
