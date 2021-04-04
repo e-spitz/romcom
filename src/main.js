@@ -93,6 +93,10 @@ function makeNewCover() {
   randomCoverButton.classList.add('hidden');
   saveCoverButton.classList.add('hidden');
   savedCoversView.classList.add('hidden');
+  coverField.value = "";
+  titleField.value = "";
+  taglineField1.value = "";
+  taglineField2.value = "";
   // currentCover = new Cover(htmlImage.src, htmlTitle.innerText, htmlTagline1.innerText, htmlTagline2.innerText);
 }
 
@@ -112,6 +116,7 @@ function viewSaved() {
   randomCoverButton.classList.add('hidden');
   saveCoverButton.classList.add('hidden');
   savedCoversView.classList.remove('hidden');
+    savedCoversSection.innerHTML = '';
     for (var i = 0; i < savedCovers.length; i++) {
       savedCoversSection.innerHTML +=
       `<section class="mini-cover" id="${savedCovers[i].id}">
