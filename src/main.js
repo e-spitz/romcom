@@ -29,11 +29,11 @@ var savedCovers = [
   new Cover("http://3.bp.blogspot.com/-iE4p9grvfpQ/VSfZT0vH2UI/AAAAAAAANq8/wwQZssi-V5g/s1600/Do%2BNot%2BForsake%2BMe%2B-%2BImage.jpg", "Sunsets and Sorrows", "sunsets", "sorrows")
 ];
 
-var currentCover = null;
+var currentCover;
 
 //EVENT LISTENERS
 window.addEventListener("load", displayRandomHomePage);
-randomCoverButton.addEventListener("click", displayRandomImage);
+randomCoverButton.addEventListener("click", displayRandomHomePage);
 makeCoverButton.addEventListener("click", makeNewCover);
 viewSavedButton.addEventListener("click", viewSaved);
 homeButton.addEventListener("click", viewHome);
@@ -43,8 +43,8 @@ saveCoverButton.addEventListener("click", saveCover);
 // Create your event handlers and other functions here 👇
 
 function getRandomImage() {
-  var cover = covers[Math.floor(Math.random() * covers.length)]
-  return cover;
+  var image = covers[Math.floor(Math.random() * covers.length)]
+  return image;
 }
 function displayRandomImage() {
   htmlImage.src = getRandomImage();
@@ -81,37 +81,43 @@ function displayRandomHomePage() {
   displayRandomTitle();
   displayRandomTagline1();
   displayRandomTagline2();
+  currentCover = new Cover(htmlImage.src, htmlTitle.innerText, htmlTagline1.innerText, htmlTagline2.innerText);
+  console.log(currentCover);
 }
 //
 
 //ITERATION 2 FORM PAGE & MENU UPDATE
-
-function makeNewCover() {
+function clearNewCoverInputs() {
+  coverField.value = "";
+  titleField.value = "";
+  taglineField1.value = "";
+  taglineField2.value = "";
+}
+function makeNewCoverPage() {
   homeButton.classList.remove('hidden');
   homeView.classList.add('hidden');
   formView.classList.remove('hidden');
   randomCoverButton.classList.add('hidden');
   saveCoverButton.classList.add('hidden');
   savedCoversView.classList.add('hidden');
-  // currentCover = new Cover(htmlImage.src, htmlTitle.innerText, htmlTagline1.innerText, htmlTagline2.innerText);
+}
+function makeNewCover() {
+  makeNewCoverPage();
+  clearNewCoverInputs();
 }
 
-// function viewSaved() {
-//   homeButton.classList.remove('hidden');
-//   homeView.classList.add('hidden');
-//   formView.classList.add('hidden');
-//   randomCoverButton.classList.add('hidden');
-//   saveCoverButton.classList.add('hidden');
-//   savedView.classList.remove('hidden');
-// }
-
-function viewSaved() {
+function viewSavedPage() {
   homeButton.classList.remove('hidden');
   homeView.classList.add('hidden');
   formView.classList.add('hidden');
   randomCoverButton.classList.add('hidden');
   saveCoverButton.classList.add('hidden');
   savedCoversView.classList.remove('hidden');
+}
+
+function viewSaved() {
+  viewSavedPage();
+  savedCoversSection.innerHTML = "";
     for (var i = 0; i < savedCovers.length; i++) {
       savedCoversSection.innerHTML +=
       `<section class="mini-cover" id="${savedCovers[i].id}">
@@ -135,28 +141,24 @@ function viewHome() {
 
 function createBook() {
   event.preventDefault();
-  // covers.push(coverField.value);
-  // titles.push(titleField.value);
-  // descriptors.push(taglineField1.value);
-  // descriptors.push(taglineField2.value);
   htmlImage.src = coverField.value;
   htmlTitle.innerText = titleField.value;
   htmlTagline1.innerText = taglineField1.value;
   htmlTagline2.innerText = taglineField2.value;
   currentCover = new Cover(htmlImage.src, htmlTitle.innerText, htmlTagline1.innerText, htmlTagline2.innerText);
-  // currentCover = new Cover(coverField.src, titleField.innerText, taglineField1.innerText, tagLineField2.innerText);
   viewHome();
 }
 
 // when user clicks save cover button, current cover is pushed to savedCovers arrays
 function saveCover() {
+  console.log(currentCover);
   var saveCover = htmlImage.src;
   var saveTitle = htmlTitle.innerText;
   var saveTagline1 = htmlTagline1.innerText;
   var saveTagline2 = htmlTagline2.innerText;
-  var saveThisCover = new Cover(saveCover, saveTitle, saveTagline1, saveTagline2);
+  // var saveThisCover = new Cover(saveCover, saveTitle, saveTagline1, saveTagline2);
 
-  if (!savedCovers.includes(saveThisCover)) {
-  return savedCovers.push(saveThisCover);
+  if (!savedCovers.includes(currentCover)) {
+    return savedCovers.push(currentCover);
   }
 }
