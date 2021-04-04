@@ -12,9 +12,12 @@ _Erica and Jani_
 ---
 
 ## How to explore RomCom?
-Start by visiting our [RomCom Designer](https://e-spitz.github.io/romcom/) website.
+
+### Start by visiting our [RomCom Designer](https://e-spitz.github.io/romcom/) website.
+
 
 ## Explore Book Covers
+
 ### Your menu buttons are at the top of the screen.
 
    ![menubuttons](readme-assets/Home%20Page%20Menu.png)
@@ -26,17 +29,18 @@ Start by visiting our [RomCom Designer](https://e-spitz.github.io/romcom/) websi
     
 
 ## Feeling Creative? Make Your Own Cover!
+
 1. Click on the **Make Your Own Cover** button
 2. There you will find a form to fill out and create your own book cover!
 3. Simply enter a cover image URL, followed by your saucy title name, and two words to best describe your tale.
 
     ![menubuttons](readme-assets/Cover-form.png)
     
-## RomCom On Load
-1. When you refresh the page, a brand new randomly generate cover should display on your browser!
-2. New image, new title, and new tagline descriptors, _*OH MY*_!
-3. See any you really love? Click the *Save Cover* button.
-4. For more info on what that button does, refer to *Save Cover Button* section of this README.
+## Need Ideas to Get Your Creative Juices Flowing?
+1. Everytime you refresh the page, a brand new random cover will display!
+   - A new spicy photo, book title, and clever taglines to keep you laughing, _*OH MY*_!
+3. See any you really love? Click the **Save Cover** button.
+4. What to review your saved covers? Click on the **View Saved Covers** button.
 
 ## Show New Random Cover Button
 1. Like your current title and taglines but interested in exploring a different cover image? Click this button!
