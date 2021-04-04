@@ -29,7 +29,7 @@ var savedCovers = [
   new Cover("http://3.bp.blogspot.com/-iE4p9grvfpQ/VSfZT0vH2UI/AAAAAAAANq8/wwQZssi-V5g/s1600/Do%2BNot%2BForsake%2BMe%2B-%2BImage.jpg", "Sunsets and Sorrows", "sunsets", "sorrows")
 ];
 
-var currentCover = null;
+var currentCover;
 
 //EVENT LISTENERS
 window.addEventListener("load", displayRandomHomePage);
@@ -43,8 +43,8 @@ saveCoverButton.addEventListener("click", saveCover);
 // Create your event handlers and other functions here 👇
 
 function getRandomImage() {
-  var cover = covers[Math.floor(Math.random() * covers.length)]
-  return cover;
+  var image = covers[Math.floor(Math.random() * covers.length)]
+  return image;
 }
 function displayRandomImage() {
   htmlImage.src = getRandomImage();
@@ -81,20 +81,28 @@ function displayRandomHomePage() {
   displayRandomTitle();
   displayRandomTagline1();
   displayRandomTagline2();
+  currentCover = new Cover(htmlImage.src, htmlTitle.innerText, htmlTagline1.innerText, htmlTagline2.innerText);
+  console.log(currentCover);
 }
 //
 
 //ITERATION 2 FORM PAGE & MENU UPDATE
 
 function makeNewCover() {
+  console.dir(taglineField1);
   homeButton.classList.remove('hidden');
   homeView.classList.add('hidden');
   formView.classList.remove('hidden');
   randomCoverButton.classList.add('hidden');
   saveCoverButton.classList.add('hidden');
   savedCoversView.classList.add('hidden');
+  coverField.value = "";
+  titleField.value = "";
+  taglineField1.value = "";
+  taglineField2.value = "";
   // currentCover = new Cover(htmlImage.src, htmlTitle.innerText, htmlTagline1.innerText, htmlTagline2.innerText);
 }
+
 
 // function viewSaved() {
 //   homeButton.classList.remove('hidden');
@@ -112,6 +120,8 @@ function viewSaved() {
   randomCoverButton.classList.add('hidden');
   saveCoverButton.classList.add('hidden');
   savedCoversView.classList.remove('hidden');
+  console.log(savedCoversSection);
+  savedCoversSection.innerHTML = "";
     for (var i = 0; i < savedCovers.length; i++) {
       savedCoversSection.innerHTML +=
       `<section class="mini-cover" id="${savedCovers[i].id}">
@@ -146,17 +156,19 @@ function createBook() {
   currentCover = new Cover(htmlImage.src, htmlTitle.innerText, htmlTagline1.innerText, htmlTagline2.innerText);
   // currentCover = new Cover(coverField.src, titleField.innerText, taglineField1.innerText, tagLineField2.innerText);
   viewHome();
+
 }
 
 // when user clicks save cover button, current cover is pushed to savedCovers arrays
 function saveCover() {
+  console.log(currentCover);
   var saveCover = htmlImage.src;
   var saveTitle = htmlTitle.innerText;
   var saveTagline1 = htmlTagline1.innerText;
   var saveTagline2 = htmlTagline2.innerText;
-  var saveThisCover = new Cover(saveCover, saveTitle, saveTagline1, saveTagline2);
+  // var saveThisCover = new Cover(saveCover, saveTitle, saveTagline1, saveTagline2);
 
-  if (!savedCovers.includes(saveThisCover)) {
-  return savedCovers.push(saveThisCover);
+  if (!savedCovers.includes(currentCover)) {
+    return savedCovers.push(currentCover);
   }
 }
