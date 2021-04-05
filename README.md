@@ -74,8 +74,9 @@ We will continue to work towards adding more functionality including:
 But in the meantime, get to *ROMCOM'N*!
 
 ### Technologies Used
-User preferred computer browser
+User preferred computer browser.
+Website built using HTML, CSS, and JavaScript.
 
 ### Contributors
-1. Jani Palomino
-2. Erica Spitz
+  - HTML, CSS, and assets provided by instructors at [Turing School of Software & Design](https://turing.io/).
+  - JavaScript written by Jani Palomino & Erica Spitz, two Frontend Engineering students.
