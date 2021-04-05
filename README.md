@@ -62,6 +62,9 @@ There you will find a form to fill out and create your own book cover!
 ### Future Feature Additions
 We will continue to work towards adding more functionality including:
    - The ability to remove covers
+   - A pop up error when an incomplete cover is submitted
+   - Ability to drag and rearrange covers on the saved covers page
+   - Mobile friendly capability
 
 But in the meantime, get to *ROMCOM'N*!
 
