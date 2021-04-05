@@ -11,28 +11,27 @@ _Erica and Jani_
 
 ---
 
-## How to explore RomCom?
-
-### Start by visiting our [RomCom Designer](https://e-spitz.github.io/romcom/) website.
+## Start by visiting our [RomCom Designer](https://e-spitz.github.io/romcom/) website. 
 
 
 ## Explore Book Covers
 
-### Your menu buttons are at the top of the screen.
+#### Your menu buttons are at the top of the screen.
 
    ![Menu Buttons](readme-assets/Home%20Page%20Menu.png)
 
 1. Click on **Show New Random Cover** to see a selection of our inventory of book covers.
 2. If you find a cover you like, click on **Save Cover**.
-3. Don't like what you see? Or are you feeling creative? Follow the **Make Your Own Cover** steps below.
+3. Don't like what you see? Or are you feeling creative? Follow the [**Make Your Own Cover**](https://github.com/e-spitz/romcom/blob/readme/first-draft-edits/README.md#feeling-creative-make-your-own-cover) steps below.
 3. Save as many covers as you'd like. When you're ready to review your saved covers, click on **View Saved Covers**.
     
 
 ## Feeling Creative? Make Your Own Cover!
 
-1. Click on the **Make Your Own Cover** button
-2. There you will find a form to fill out and create your own book cover!
-3. Simply enter a cover image URL, followed by your saucy title name, and two words to best describe your tale.
+#### Click on the **Make Your Own Cover** button
+
+There you will find a form to fill out and create your own book cover!
+   - Simply enter a cover image URL, followed by your saucy title name, and two words to best describe your tale.
 
     ![Make Your Cover Form](readme-assets/Cover-form.png)
     
@@ -44,7 +43,7 @@ _Erica and Jani_
 
 ## Check out Your Favorites!
 
-### Click on the **View Saved Covers** button to take a look at your favorites!
+#### Click on the **View Saved Covers** button to take a look at your favorites!
 
    ![View Your Saved Covers](readme-assets/View-Saved-Covers.png)
 
