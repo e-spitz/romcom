@@ -5,6 +5,9 @@
 4. [Show New Random Cover](https://github.com/e-spitz/romcom#need-ideas-to-get-your-creative-juices-flowing)
 5. [Save Your Cover](https://github.com/e-spitz/romcom#love-what-you-see-want-to-save-it)
 6. [View Saved Covers](https://github.com/e-spitz/romcom#check-out-your-favorites)
+7. [Future Feature Additions](https://github.com/e-spitz/romcom#future-feature-additions)
+8. [Technologies Used](https://github.com/e-spitz/romcom#technologies-used)
+9. [Contributors](https://github.com/e-spitz/romcom#contributors)
 
 ## RomCom or RomBookCover?
 Romantic comedies or romance novel covers... which is funnier? We couldn't decide either! There is just something about romance novel covers that is so inviting and so entertaining. Maybe it's the steamy image of two love birds embracing... or maybe it's the exciting descriptions that go along with the dramatic titles! There are just too many elements to enjoy. So we've decided to create a romance book cover generator! So all of your creative, romantic dreams of fire, ardor, zeal, and passion can come true!
@@ -58,6 +61,7 @@ There you will find a form to fill out and create your own book cover!
 
    ![View Your Saved Covers](readme-assets/View-Saved-Covers.png)
 
+---
 
 ### Future Feature Additions
 We will continue to work towards adding more functionality including:
@@ -65,12 +69,13 @@ We will continue to work towards adding more functionality including:
    - A pop up error when an incomplete cover is submitted
    - Ability to drag and rearrange covers on the saved covers page
    - Mobile friendly capability
+   - The ability to write your own title and tagline and select from an array of cover images
 
 But in the meantime, get to *ROMCOM'N*!
 
 ### Technologies Used
 User preferred computer browser
 
-#### Contributors
+### Contributors
 1. Jani Palomino
 2. Erica Spitz
