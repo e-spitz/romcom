@@ -20,7 +20,7 @@ _Erica and Jani_
 
 ### Your menu buttons are at the top of the screen.
 
-   ![menubuttons](readme-assets/Home%20Page%20Menu.png)
+   ![Menu Buttons](readme-assets/Home%20Page%20Menu.png)
 
 1. Click on **Show New Random Cover** to see a selection of our inventory of book covers.
 2. If you find a cover you like, click on **Save Cover**.
@@ -34,28 +34,27 @@ _Erica and Jani_
 2. There you will find a form to fill out and create your own book cover!
 3. Simply enter a cover image URL, followed by your saucy title name, and two words to best describe your tale.
 
-    ![menubuttons](readme-assets/Cover-form.png)
+    ![Make Your Cover Form](readme-assets/Cover-form.png)
     
 ## Need Ideas to Get Your Creative Juices Flowing?
 1. Everytime you refresh the page, a brand new random cover will display!
-   - A new spicy photo, book title, and clever taglines to keep you laughing, _*OH MY*_!
+   - You can sift through tons of pre-loaded covers full of love, devotion, and enchantment! _*OH MY*_!
 3. See any you really love? Click the **Save Cover** button.
 4. What to review your saved covers? Click on the **View Saved Covers** button.
 
-## Show New Random Cover Button
-1. Like your current title and taglines but interested in exploring a different cover image? Click this button!
-2. When clicked, you can sift through tons of pre-loaded images full of love, devotion, and enchantment!
+## Check out Your Favorites!
+
+### Click on the **View Saved Covers** button to take a look at your favorites!
+
+   ![View Your Saved Covers](readme-assets/View-Saved-Covers.png)
+
 
 ## Save Cover Button
-1. *LOVE* what you see and what to save it? Click this button!
+1. _*LOVE*_ what you see? And want to save it? The **Save Cover** button will save your favorites!
 2. This allows you to create any cover you'd like, whether its by the _Random Cover_ generator, refreshing the page, or the *Make Your Own Cover* form.
 3. Refer to *Make Your Own Cover* button info below.
 
-## View Saved Covers Button
-1. When clicked, this button takes you to your favorite saved covers!
-2. They should be displayed in rows and columns, allowing you to save as many as you'd like!
-3. They are also displayed in cute little mini-cover poster styles, so they don't take up your entire screen!
-4. *_NOTE_* We have a bug here. If you transfer back and forth from _Saved Covers_ to _Home_ it will keep adding the same covers. It also adds duplicate covers if you accidentally click the _Save Cover_ button twice for the same cover. We are working on this! Thanks for your patience!
+
 
 ## Make Your Own Cover Button
 1. When clicked, this button takes you to a form where you can personalize your cover!
