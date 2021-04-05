@@ -11,10 +11,11 @@ _Erica and Jani_
 
 ---
 
-## Start by visiting our [RomCom Designer](https://e-spitz.github.io/romcom/) website. 
+> ## Start by visiting our [RomCom Designer](https://e-spitz.github.io/romcom/) website. 
 
 
-## Explore Book Covers
+
+## Get Started on Your Creative Adventure!
 
 #### Your menu buttons are at the top of the screen.
 
