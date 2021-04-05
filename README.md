@@ -44,25 +44,15 @@ There you will find a form to fill out and create your own book cover!
 
 ## Check out Your Favorites!
 
+#### _LOVE_ What You See? Want to Save It? 
+1. The **Save Cover** button will save your favorites!
+2. This allows you to create any cover you'd like! Whether it's one of our covers, or one you [custom created](https://github.com/e-spitz/romcom/blob/readme/first-draft-edits/README.md#feeling-creative-make-your-own-cover)!
+3. Refer to *Make Your Own Cover* button info below.
+
 #### Click on the **View Saved Covers** button to take a look at your favorites!
 
    ![View Your Saved Covers](readme-assets/View-Saved-Covers.png)
 
-
-## Save Cover Button
-1. _*LOVE*_ what you see? And want to save it? The **Save Cover** button will save your favorites!
-2. This allows you to create any cover you'd like, whether its by the _Random Cover_ generator, refreshing the page, or the *Make Your Own Cover* form.
-3. Refer to *Make Your Own Cover* button info below.
-
-
-
-## Make Your Own Cover Button
-1. When clicked, this button takes you to a form where you can personalize your cover!
-2. Line 1 allows you to input an image url, so you can choose _any_ smoldering cover photo you can find on the internet!
-3. Line 2 of the form allows you to create your very own title. No limits on imagination!
-4. Lines 3 & 4 allows you to change the descriptive words in the tagline! The more dramatic, the better!
-5. When all lines are filled,  you can click the *Make My Cover* button to see your cover displayed on the home page!
-6. Are you absolutely head over heels with this creation? _SAVE IT!_ with the _Save Cover_ button!
 
 ## Conclusion
 Currently, this is all of the functionality we have for our website. We will continue to work towards adding more functionality like deleting covers or removing duplicates from the saved cover portion. But in the meantime, get to *ROMCOM'N*!
