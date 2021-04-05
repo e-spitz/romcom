@@ -59,15 +59,15 @@ There you will find a form to fill out and create your own book cover!
    ![View Your Saved Covers](readme-assets/View-Saved-Covers.png)
 
 
-## Feature Additions
+> ## Feature Additions
 We will continue to work towards adding more functionality including:
    - The ability to remove covers
 
 But in the meantime, get to *ROMCOM'N*!
 
-## Technologies Used
+> ## Technologies Used
 User preferred computer browser
 
-### Contributors
+> ### Contributors
 1. Jani Palomino
 2. Erica Spitz
