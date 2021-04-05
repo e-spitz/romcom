@@ -21,7 +21,7 @@ _Erica and Jani_
    ![Menu Buttons](readme-assets/Home%20Page%20Menu.png)
 
 1. Click on **Show New Random Cover** to see a selection of our inventory of book covers.
-2. If you find a cover you like, click on **Save Cover**.
+2. If you find a cover you like, click on [**Save Cover**](https://github.com/e-spitz/romcom/blob/main/README.md#love-what-you-see-want-to-save-it).
 3. Don't like what you see? Or are you feeling creative? Follow the [**Make Your Own Cover**](https://github.com/e-spitz/romcom/blob/readme/first-draft-edits/README.md#feeling-creative-make-your-own-cover) steps below.
 3. Save as many covers as you'd like. When you're ready to review your saved covers, click on [**View Saved Covers**](https://github.com/e-spitz/romcom/blob/main/README.md#check-out-your-favorites).
     
@@ -39,15 +39,17 @@ There you will find a form to fill out and create your own book cover!
 ## Need Ideas to Get Your Creative Juices Flowing?
 1. Everytime you refresh the page, a brand new random cover will display!
    - You can sift through tons of pre-loaded covers full of love, devotion, and enchantment! _*OH MY*_!
-3. See any you really love? Click the **Save Cover** button.
+3. See any you really love? Click the [**Save Cover**](https://github.com/e-spitz/romcom/blob/main/README.md#love-what-you-see-want-to-save-it) button.
 4. What to review your saved covers? Click on the [**View Saved Covers**](https://github.com/e-spitz/romcom/blob/main/README.md#check-out-your-favorites) button.
 
-## Check out Your Favorites!
 
-#### _LOVE_ What You See? Want to Save It? 
-1. The **Save Cover** button will save your favorites!
+## _LOVE_ What You See? Want to Save It? 
+
+##### The **Save Cover** button will save your favorites!
 2. This allows you to create any cover you'd like! Whether it's one of our covers, or one you [custom created](https://github.com/e-spitz/romcom/blob/readme/first-draft-edits/README.md#feeling-creative-make-your-own-cover)!
 3. Refer to *Make Your Own Cover* button info below.
+
+## Check out Your Favorites!
 
 #### Click on the **View Saved Covers** button to take a look at your favorites!
 
