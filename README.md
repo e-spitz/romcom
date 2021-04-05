@@ -48,9 +48,9 @@ There you will find a form to fill out and create your own book cover!
 
 ## _LOVE_ What You See? Want to Save It? 
 
-##### The **Save Cover** button will save your favorites!
-2. This allows you to create any cover you'd like! Whether it's one of our covers, or one you [custom created](https://github.com/e-spitz/romcom/blob/readme/first-draft-edits/README.md#feeling-creative-make-your-own-cover)!
-3. Refer to *Make Your Own Cover* button info below.
+#### The **Save Cover** button will save your favorites!
+1. This allows you to save any cover you'd like! Whether it's one of our covers, or one you [custom created](https://github.com/e-spitz/romcom/blob/readme/first-draft-edits/README.md#feeling-creative-make-your-own-cover)!
+2. Check out your whole collection of saved covers by click on the the [**View Saved Covers**](https://github.com/e-spitz/romcom/blob/main/README.md#check-out-your-favorites) button.
 
 ## Check out Your Favorites!
 
