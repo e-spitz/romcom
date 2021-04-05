@@ -2,7 +2,7 @@
 1. Introduction
 2. How to
 
-## Introduction: RomCom or RomCover?
+## RomCom or RomCover?
 Romantic comedies or romance novel covers... which is funnier? We couldn't decide either! There is just something about romance novel covers that is so inviting and so entertaining. Maybe it's the steamy image of two love birds embracing... or maybe it's the exciting descriptions that go along with the dramatic titles! There are just too many elements to enjoy. So we've decided to create a romance book cover generator! So all of your creative, romantic dreams of fire, ardor, zeal, and passion can come true! 
 
 Enjoy!
@@ -11,13 +11,10 @@ _Erica and Jani_
 
 ---
 
-> ## Start by visiting our [RomCom Designer](https://e-spitz.github.io/romcom/) website. 
+> ## Visit our [RomCom Designer](https://e-spitz.github.io/romcom/) website. 
 
 
-
-## Get Started on Your Creative Adventure!
-
-#### Your menu buttons are at the top of the screen.
+#### Then menu buttons are at the top of the screen.
 
    ![Menu Buttons](readme-assets/Home%20Page%20Menu.png)
 
