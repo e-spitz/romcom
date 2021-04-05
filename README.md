@@ -23,7 +23,7 @@ _Erica and Jani_
 1. Click on **Show New Random Cover** to see a selection of our inventory of book covers.
 2. If you find a cover you like, click on **Save Cover**.
 3. Don't like what you see? Or are you feeling creative? Follow the [**Make Your Own Cover**](https://github.com/e-spitz/romcom/blob/readme/first-draft-edits/README.md#feeling-creative-make-your-own-cover) steps below.
-3. Save as many covers as you'd like. When you're ready to review your saved covers, click on **View Saved Covers**.
+3. Save as many covers as you'd like. When you're ready to review your saved covers, click on [**View Saved Covers**](https://github.com/e-spitz/romcom/blob/main/README.md#check-out-your-favorites).
     
 
 ## Feeling Creative? Make Your Own Cover!
@@ -31,7 +31,8 @@ _Erica and Jani_
 #### Click on the **Make Your Own Cover** button
 
 There you will find a form to fill out and create your own book cover!
-   - Simply enter a cover image URL, followed by your saucy title name, and two words to best describe your tale.
+1. Simply enter a cover image URL, followed by your saucy title name, and two words to best describe your tale.
+2. Then click the **Make my book** button to preview your custom cover!
 
     ![Make Your Cover Form](readme-assets/Cover-form.png)
     
@@ -39,7 +40,7 @@ There you will find a form to fill out and create your own book cover!
 1. Everytime you refresh the page, a brand new random cover will display!
    - You can sift through tons of pre-loaded covers full of love, devotion, and enchantment! _*OH MY*_!
 3. See any you really love? Click the **Save Cover** button.
-4. What to review your saved covers? Click on the **View Saved Covers** button.
+4. What to review your saved covers? Click on the [**View Saved Covers**](https://github.com/e-spitz/romcom/blob/main/README.md#check-out-your-favorites) button.
 
 ## Check out Your Favorites!
 
