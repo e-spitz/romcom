@@ -1,8 +1,12 @@
 # Contents
-1. Introduction
-2. How to
+1. Introduction - RomCom or RomBookCover?
+2. Navigating the Website
+3. Make Your Own Cover
+4. Show New Random Cover
+5. Save Your Cover
+6. View Saved Covers
 
-## RomCom or RomCover?
+## RomCom or RomBookCover?
 Romantic comedies or romance novel covers... which is funnier? We couldn't decide either! There is just something about romance novel covers that is so inviting and so entertaining. Maybe it's the steamy image of two love birds embracing... or maybe it's the exciting descriptions that go along with the dramatic titles! There are just too many elements to enjoy. So we've decided to create a romance book cover generator! So all of your creative, romantic dreams of fire, ardor, zeal, and passion can come true! 
 
 Enjoy!
@@ -11,8 +15,9 @@ _Erica and Jani_
 
 ---
 
-> ## Visit our [RomCom Designer](https://e-spitz.github.io/romcom/) website. 
+> ### Visit our [RomCom Designer](https://e-spitz.github.io/romcom/) website. 
 
+---
 
 #### Then menu buttons are at the top of the screen.
 
@@ -54,9 +59,15 @@ There you will find a form to fill out and create your own book cover!
    ![View Your Saved Covers](readme-assets/View-Saved-Covers.png)
 
 
-## Conclusion
-Currently, this is all of the functionality we have for our website. We will continue to work towards adding more functionality like deleting covers or removing duplicates from the saved cover portion. But in the meantime, get to *ROMCOM'N*!
+## Feature Additions
+We will continue to work towards adding more functionality including:
+   - The ability to remove covers
 
-### Maintainers
+But in the meantime, get to *ROMCOM'N*!
+
+## Technologies Used
+User preferred computer browser
+
+### Contributors
 1. Jani Palomino
 2. Erica Spitz
